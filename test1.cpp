@@ -3,7 +3,7 @@ using namespace std;
 
 class number
 {
-	int x,y
+	int x,y;
 	public:
 		void accept()
 		{
@@ -17,6 +17,7 @@ class number
 			cout<<"value of x::"<<x;
 			cout<<"value of y::"<<y;
 		}
+};
 int main()
 {
 number n;	
